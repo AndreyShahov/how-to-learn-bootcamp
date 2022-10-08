@@ -20,6 +20,7 @@ indent_style = space
 
 indent_size = 2
 
+
 # Line ending file format
 
 # Possible values - lf, crlf, cr
@@ -43,3 +44,6 @@ trim_trailing_whitespace = true
 # Possible values - true, false
 
 insert_final_newline = true
+
+
+
