@@ -11,9 +11,12 @@
   flex-direction: column;
 }
 
-.header {
+main {
   margin: 0;
   padding: 0;
+}
+
+.header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -33,21 +36,13 @@
   margin-top: 80px;
 }
 
-.flex {
-  display: flex;
-}
-
-.footer {
-  margin: 0;
-  padding: 0;
-}
-
 .logo_place_header {
   width: 228px;
   height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__title {
@@ -58,6 +53,7 @@
   line-height: 96px;
   font-size: 102px;
   font-style: 600px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -68,6 +64,7 @@
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -88,24 +85,5 @@
   background-color: #2f80ed;
 }
 
-.description {
-  margin: 0;
-  padding: 0;
-}
-
-.digits {
-  margin: 0;
-  padding: 0;
-}
-
-..feynman {
-  margin: 0;
-  padding: 0;
-}
-
-.kaufman {
-  margin: 0;
-  padding: 0;
-}
 
 
