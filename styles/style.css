@@ -1,4 +1,4 @@
-  div, .feynman, .feynman__title {
+  div, .feynman, .feynman__title, .feynman__subtitle {
     border: 1px solid red;
   }
 
@@ -207,14 +207,23 @@ main {
 
 .feynman {
   display: flex;
+  flex-direction: column;
   position: relative;
+  align-items: center;
   height: 890px;
 }
 
 .feynman__title {
   margin-top: 0;
   width: 648px;
-  height: 637px;
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 70px;
+}
+
+.feynman__subtitle{
+  /* align-self: center; */
+  z-index: 1;
 }
 
 .feynman__illustration {
@@ -224,6 +233,7 @@ main {
   left: 0;
   bottom: 0;
 }
+
 
 
 
