@@ -2,11 +2,12 @@ html {
   overflow-x: hidden;
 }
 
-p, h1, h2, h3, h4 {
-  margin: 0;
+a:link {
+  color: white;
+  text-decoration: none;
 }
 
-a:link {
+a:visited {
   color: white;
   text-decoration: none;
 }
@@ -60,12 +61,14 @@ a:link {
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-style: 600;
 }
 
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
@@ -88,6 +91,7 @@ a:link {
 }
 
 .header__title {
+  margin: 0;
   width: 730px;
   display: flex;
   align-items: center;
@@ -157,6 +161,10 @@ a:link {
   row-gap: 30px;
 }
 
+.two-columns_paragraph {
+  margin: 0;
+}
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
@@ -199,7 +207,7 @@ a:link {
   flex-direction: column;
   box-sizing: border-box;
   position: relative;
-  height: 890px;
+  min-height: 890px;
   align-items: center;
   background-color: #f2f2f2;
   padding-top: 100px;
@@ -218,6 +226,7 @@ a:link {
 }
 
 .feynman__subtitle{
+  margin: 0;
   z-index: 1;
   line-height: 51px;
   font-size: 36px;
@@ -318,6 +327,7 @@ a:link {
 }
 
 .logo_place_footer {
+  margin: 0;
   background-image: url("../images/logo_place_footer.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -341,6 +351,7 @@ a:link {
 }
 
 .footer__columns-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-style: 600;
@@ -354,6 +365,7 @@ a:link {
 }
 
 .footer__columns-text {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-style: normal;
