@@ -136,6 +136,7 @@ a:visited {
 }
 
 .description {
+  display: flex;
   justify-content: space-between;
   width: 80%;
   margin: auto;
@@ -153,6 +154,8 @@ a:visited {
 }
 
 .two-columns__main-text {
+  display: flex;
+  flex-direction: column;
   width: 80%;
   min-width: 784px;
   line-height: 34px;
@@ -172,6 +175,8 @@ a:visited {
 }
 
 .digits {
+  display: flex;
+  flex-direction: column;
   padding-top: 100px;
 }
 
@@ -252,6 +257,8 @@ a:visited {
 }
 
 .kaufman {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
@@ -311,6 +318,7 @@ a:visited {
 }
 
 .footer__columns {
+  display: flex;
   padding: 0;
   margin: 0;
   justify-content: space-between;
@@ -323,6 +331,7 @@ a:visited {
 }
 
 .footer__columns_content_copyright {
+  flex-direction: column;
   flex-basis: 711px;
 }
 
@@ -344,7 +353,6 @@ a:visited {
 }
 
 .footer__columns_content_info {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   row-gap: 20px;
@@ -358,13 +366,15 @@ a:visited {
 }
 
 .footer__columns-links {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style-type: none;
   margin-bottom: 16px;
 }
 
-.footer__columns-text {
+.footer__columns-link {
   margin: 0;
   line-height: 30px;
   font-size: 18px;
@@ -372,14 +382,13 @@ a:visited {
 }
 
 .footer__columns_content_social {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   row-gap: 20px;
-  list-style-type: none;
 }
 
-.footer__columns-link {
+.footer__columns-element {
+  display: flex;
   align-items: baseline;
 }
 
