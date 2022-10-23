@@ -23,10 +23,19 @@
 
 @import url(../blocs/techniques/techniques.css);
 @import url(../blocs/cards/cards.css);
+@import url(../blocs/techniques/__cards/techniques__cards.css);
 @import url(../blocs/cards/__item/cards__item.css);
 @import url(../blocs/cards/__image/cards__image.css);
 @import url(../blocs/cards/__title/cards__title.css);
 @import url(../blocs/cards/__description/cards__description.css);
+@import url(../blocs/techniques/__section-title/techniques__section-title.css);
+@import url(../blocs/techniques/__section-subtitle/techniques__section-subtitle.css);
+
+@import url(../blocs/video/video.css);
+@import url(../blocs/video/__section-title/video__section-title.css);
+@import url(../blocs/video/__section-subtitle/video__section-subtitle.css);
+@import url(../blocs/video/__iframes/video__iframes.css);
+@import url(../blocs/video/__iframe/video__iframe.css);
 
 @import url(../blocs/description/description.css);
 @import url(../blocs/description/two-columns/two-columns.css);
