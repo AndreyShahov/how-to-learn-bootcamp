@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(../blocs/root/root.css);
 @import url(../blocs/page/page.css);
 
 @import url(../blocs/logo/logo.css);
@@ -22,11 +21,11 @@
 @import url(../blocs/header/__rotation/header__rotation.css);
 
 @import url(../blocs/description/description.css);
-@import url(../blocs/description/two-columns/two-columns.css);
-@import url(../blocs/description/two-columns/__brief/two-columns__brief.css);
-@import url(../blocs/description/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocs/description/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocs/description/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocs/two-columns/two-columns.css);
+@import url(../blocs/two-columns/__brief/two-columns__brief.css);
+@import url(../blocs/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocs/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocs/two-columns/__span-accent/two-columns__span-accent.css);
 
 @import url(../blocs/techniques/techniques.css);
 @import url(../blocs/cards/cards.css);
@@ -75,6 +74,14 @@
 @import url(../blocs/table/_theme/table_theme_dark.css);
 @import url(../blocs/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocs/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocs/kaufman/__rotation/kaufman__rotation.css);
+
+@import url(../blocs/resources/resources.css);
+@import url(../blocs/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocs/resources/__section-title/resources__section-title.css);
+@import url(../blocs/resources/__section-subtitle/resources__section-subtitle.css);
+@import url(../blocs/resources/__logo/resources__logo.css);
+@import url(../blocs/resources/__link/resources__link.css);
 
 @import url(../blocs/footer/footer.css);
 @import url(../blocs/footer/__columns/footer__columns.css);

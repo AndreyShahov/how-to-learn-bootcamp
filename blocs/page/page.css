@@ -2,16 +2,6 @@ html {
   overflow-x: hidden;
 }
 
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-  text-decoration: none;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;

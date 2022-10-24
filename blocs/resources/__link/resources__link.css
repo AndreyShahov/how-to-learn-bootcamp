@@ -1,14 +1,12 @@
-.header__link:hover {
+.resources__link:hover {
   opacity: 0.5;
   transition: opacity 0.2s linear;
 }
 
-.header__link:link {
-  color: #2f80ed;
+.resources__link:link {
   text-decoration: none;
 }
 
-.header__link:visited {
-  color: #2f80ed;
+.resources__link:visited {
   text-decoration: none;
 }
